@@ -3,9 +3,9 @@ serialio
 
 serial port library for win &amp; linux, in C.
 
-* API:
+## API:
 
-** enums:
+### enums:
 
 	SIO_SUCCESS
 
@@ -47,7 +47,7 @@ serial port library for win &amp; linux, in C.
 	SIO_EBIT_RTS
 
 
-** functions:
+### functions:
 
 	/* baudrate specified in int value, like 300, 1200 and so on */
 	void SIO_setArg(SIO_arg_t* arg, int baudrate, SIOenum dataBit, SIOenum parType, SIOenum stopBit, SIOenum flowType);
